@@ -2,6 +2,9 @@ package com.epam.epetrov.calculator;
 
 import java.util.Scanner;
 
+/**
+ *  Class for summing some integer values in console
+ */
 public class Main {
 
     public static void main(String[] args) {
