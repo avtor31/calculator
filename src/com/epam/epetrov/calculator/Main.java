@@ -6,7 +6,10 @@ import java.util.Scanner;
  *  Class for summing some integer values in console
  */
 public class Main {
-
+    /**
+     *  Method for run the application
+     * @param args
+     */
     public static void main(String[] args) {
         Main app = new Main();
         System.out.println("\t Hi!\n It is a summing calculator.");
