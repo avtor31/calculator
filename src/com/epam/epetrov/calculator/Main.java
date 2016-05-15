@@ -3,6 +3,7 @@ package com.epam.epetrov.calculator;
 import java.util.Scanner;
 
 /**
+ *  Author: epetrov
  *  Class for summing some integer values in console
  */
 public class Main {
