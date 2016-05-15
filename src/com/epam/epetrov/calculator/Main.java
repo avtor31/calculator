@@ -25,16 +25,20 @@ public class Main {
         Scanner keyboard = new Scanner(System.in);
         int firstValue = 0;
         int secondValue = 0;
+        int thirdValue = 0;
         try{
             System.out.println("enter an integer:");
             firstValue = keyboard.nextInt();
             System.out.println("enter a next integer:");
             secondValue = keyboard.nextInt();
+            System.out.println("enter a next integer:");
+            thirdValue = keyboard.nextInt();
         } catch (Exception e) {
             System.out.println("the value is not an integer!");
             this.run();
         }
-        System.out.println(String.format("The summ of %d and %d is: %d", firstValue,  secondValue, firstValue + secondValue));
+        System.out.println(String.format("The summ of %d and %d  and %d is: %d", firstValue,  secondValue, thirdValue,
+                firstValue + secondValue + thirdValue));
         System.out.println("\t If you want to get off an application enter symbol \"C\"\n in other way enter any symbol: ");
         return keyboard.next();
     }
