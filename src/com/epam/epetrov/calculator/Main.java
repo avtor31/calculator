@@ -18,6 +18,9 @@ public class Main {
             endApp = app.run();
         }
     }
+    /*
+    method making calculation process
+     */
     private String run() {
         Scanner keyboard = new Scanner(System.in);
         int firstValue = 0;
