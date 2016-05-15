@@ -12,7 +12,7 @@ public class Main {
      */
     public static void main(String[] args) {
         Main app = new Main();
-        System.out.println("\t Hi!\n It is a summing calculator.");
+        //System.out.println("\t Hi!\n It is a summing calculator.");
         String endApp = "";
         while(!endApp.equalsIgnoreCase("c")) {
             endApp = app.run();
