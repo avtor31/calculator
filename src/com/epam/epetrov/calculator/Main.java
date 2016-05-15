@@ -35,7 +35,7 @@ public class Main {
             this.run();
         }
         System.out.println(String.format("The summ of %d and %d  and %d is: %d", firstValue,  secondValue, thirdValue,
-                firstValue + secondValue));
+                firstValue + secondValue + thirdValue));
         System.out.println("\t If you want to get off an application enter symbol \"C\"\n in other way enter any symbol: ");
         return keyboard.next();
     }
